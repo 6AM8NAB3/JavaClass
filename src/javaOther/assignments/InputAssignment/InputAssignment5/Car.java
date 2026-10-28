@@ -17,12 +17,4 @@ public class Car {
         System.out.println("Color: " + color);
         System.out.println("Price: " + price);
     }
-
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
 }
