@@ -12,12 +12,8 @@ public class InputAssignment2 {
         }
 
         for (int i = 0; i < num.length; i++) {
-            if (i > 0) {
-                System.out.print(" ");
-            }
-            System.out.print(num[i]);
+            System.out.print(num[i] + " ");
         }
         System.out.println();
-        sc.close();
     }
 }

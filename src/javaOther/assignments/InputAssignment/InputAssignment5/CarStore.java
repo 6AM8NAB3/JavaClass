@@ -22,6 +22,5 @@ public class CarStore {
             System.out.println("보유 차량 " + (i + 1));
             cars[i].showCar();
         }
-        sc.close();
     }
 }

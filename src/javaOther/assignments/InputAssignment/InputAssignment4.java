@@ -16,6 +16,5 @@ public class InputAssignment4 {
             }
             System.out.println();
         }
-        sc.close();
     }
 }

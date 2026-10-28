@@ -13,7 +13,6 @@ public class InputAssignment1 {
         }
 
         double average = sum / 10.0;
-        System.out.printf("합: %d 평균: %.1f%n", sum, average);
-        sc.close();
+        System.out.printf("합: %d 평균: %.1f", sum, average);
     }
 }
