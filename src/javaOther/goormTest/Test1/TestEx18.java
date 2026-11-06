@@ -1,4 +1,4 @@
-package javaOther.goormTest;
+package javaOther.goormTest.Test1;
 
 public class TestEx18 {
     public static void main(String[] args) {
