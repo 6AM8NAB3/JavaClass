@@ -5,7 +5,7 @@ public class VIPCustomer extends Customer {
     double saleRatio;
 
     public VIPCustomer() {
-        //super(); //상위 클래스의 생성자를 호출하여 생성 (컴파일러가 자동으로 추가해줌)
+        super(); //상위 클래스의 생성자를 호출하여 생성 (컴파일러가 자동으로 추가해줌)
         initVIP();
     }
 
@@ -21,7 +21,6 @@ public class VIPCustomer extends Customer {
         saleRatio = 0.1;
     }
 
-
     public int getAgentID() {
         return agentID;
     }
@@ -36,4 +35,6 @@ public class VIPCustomer extends Customer {
         //return showCustomerInfo() + "\n상담원 아이디는 " + getAgentID();
         return super.showCustomerInfo()+ "\n상담원 아이디는 " + getAgentID();
     }
+
+
 }
