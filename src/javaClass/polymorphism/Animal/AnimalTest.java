@@ -5,8 +5,7 @@ public class AnimalTest {
         AnimalTest atest = new AnimalTest();
         atest.moveAnimal(new Human());
         atest.moveAnimal(new Tiger());
-        atest.moveAnimal(new Eagle()     );
-
+        atest.moveAnimal(new Eagle());
     }
 
     public void moveAnimal(Animal animal) {
